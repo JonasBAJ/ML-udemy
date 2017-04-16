@@ -1,8 +1,6 @@
 # Data Pre-Processing
 
 from __future__ import print_function
-
-# Importing the libraries
 import pandas as pd
 from sklearn.preprocessing import Imputer, LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split

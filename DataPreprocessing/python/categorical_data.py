@@ -1,10 +1,8 @@
-# Data Preprocessing
+# Data Pre-Processing
 
 from __future__ import print_function
 
 # Importing the libraries
-import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import Imputer, LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
@@ -21,7 +19,7 @@ class Helpers(object):
             print()
 
 
-# Importing the dataset
+# Importing the data set
 data_set = pd.read_csv('../Data.csv')
 X = data_set.iloc[:, :-1].values
 y = data_set.iloc[:, 3].values
